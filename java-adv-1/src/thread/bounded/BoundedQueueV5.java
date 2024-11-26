@@ -35,7 +35,7 @@ public class BoundedQueueV5 implements BoundedQueue {
                 }
             }
             queue.offer(data);
-            log("[put] 생산자 데이터 저장, consumerCond.signal()() 호출");
+            log("[put] 생산자 데이터 저장, consumerCond.signal() 호출");
             consumerCond.signal();
         } finally {
             lock.unlock();
