@@ -1,4 +1,4 @@
-package thread.collection;
+package thread.collection.simple;
 
 public interface SimpleList {
     int size();

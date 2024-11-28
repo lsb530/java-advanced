@@ -1,6 +1,6 @@
 package thread.collection.simple.list;
 
-import thread.collection.SimpleList;
+import thread.collection.simple.SimpleList;
 
 public class SimpleListMainV1 {
 
